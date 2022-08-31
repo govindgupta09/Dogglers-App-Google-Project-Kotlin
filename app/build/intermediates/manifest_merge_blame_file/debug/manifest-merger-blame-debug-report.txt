@@ -1,0 +1,169 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.govi.dogglers"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.REORDER_TASKS" />
+11-->[androidx.fragment:fragment-testing:1.5.2] C:\Users\DELL\.gradle\caches\transforms-3\2a1a1c2119b31648895f71edc4fc170f\transformed\jetified-fragment-testing-1.5.2\AndroidManifest.xml:25:5-72
+11-->[androidx.fragment:fragment-testing:1.5.2] C:\Users\DELL\.gradle\caches\transforms-3\2a1a1c2119b31648895f71edc4fc170f\transformed\jetified-fragment-testing-1.5.2\AndroidManifest.xml:25:22-69
+12
+13    <application
+13-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:6:5-36:19
+14        android:allowBackup="true"
+14-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:7:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.8.0] C:\Users\DELL\.gradle\caches\transforms-3\7ca7e881a086ec072176f4f388780214\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:8:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:9:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:10:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:11:9-35
+21        android:theme="@style/Theme.Dogglers" >
+21-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:12:9-46
+22        <activity android:name="com.govi.dogglers.VerticalListActivity" >
+22-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:13:9-17:20
+22-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:13:19-72
+23            <meta-data
+23-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:14:13-16:66
+24                android:name="android.support.PARENT_ACTIVITY"
+24-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:15:17-63
+25                android:value="com.govi.dogglers.MainActivity" />
+25-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:16:17-63
+26        </activity>
+27        <activity android:name="com.govi.dogglers.HorizontalListActivity" >
+27-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:18:9-22:20
+27-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:18:19-74
+28            <meta-data
+28-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:14:13-16:66
+29                android:name="android.support.PARENT_ACTIVITY"
+29-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:15:17-63
+30                android:value="com.govi.dogglers.MainActivity" />
+30-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:16:17-63
+31        </activity>
+32        <activity android:name="com.govi.dogglers.GridListActivity" >
+32-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:23:9-27:20
+32-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:23:19-68
+33            <meta-data
+33-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:14:13-16:66
+34                android:name="android.support.PARENT_ACTIVITY"
+34-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:15:17-63
+35                android:value="com.govi.dogglers.MainActivity" />
+35-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:16:17-63
+36        </activity>
+37        <activity
+37-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:28:9-35:20
+38            android:name="com.govi.dogglers.MainActivity"
+38-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:28:19-64
+39            android:exported="true" >
+39-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:29:13-36
+40            <intent-filter>
+40-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:30:13-34:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:31:17-69
+41-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:31:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:33:17-77
+43-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:33:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->[androidx.fragment:fragment-testing:1.5.2] C:\Users\DELL\.gradle\caches\transforms-3\2a1a1c2119b31648895f71edc4fc170f\transformed\jetified-fragment-testing-1.5.2\AndroidManifest.xml:28:9-37:20
+47            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+47-->[androidx.fragment:fragment-testing:1.5.2] C:\Users\DELL\.gradle\caches\transforms-3\2a1a1c2119b31648895f71edc4fc170f\transformed\jetified-fragment-testing-1.5.2\AndroidManifest.xml:29:13-96
+48            android:exported="true"
+48-->[androidx.fragment:fragment-testing:1.5.2] C:\Users\DELL\.gradle\caches\transforms-3\2a1a1c2119b31648895f71edc4fc170f\transformed\jetified-fragment-testing-1.5.2\AndroidManifest.xml:30:13-36
+49            android:multiprocess="true"
+49-->[androidx.fragment:fragment-testing:1.5.2] C:\Users\DELL\.gradle\caches\transforms-3\2a1a1c2119b31648895f71edc4fc170f\transformed\jetified-fragment-testing-1.5.2\AndroidManifest.xml:31:13-40
+50            android:taskAffinity=""
+50-->[androidx.fragment:fragment-testing:1.5.2] C:\Users\DELL\.gradle\caches\transforms-3\2a1a1c2119b31648895f71edc4fc170f\transformed\jetified-fragment-testing-1.5.2\AndroidManifest.xml:32:13-36
+51            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+51-->[androidx.fragment:fragment-testing:1.5.2] C:\Users\DELL\.gradle\caches\transforms-3\2a1a1c2119b31648895f71edc4fc170f\transformed\jetified-fragment-testing-1.5.2\AndroidManifest.xml:33:13-78
+52            <intent-filter>
+52-->[androidx.fragment:fragment-testing:1.5.2] C:\Users\DELL\.gradle\caches\transforms-3\2a1a1c2119b31648895f71edc4fc170f\transformed\jetified-fragment-testing-1.5.2\AndroidManifest.xml:34:13-36:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:31:17-69
+53-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:31:25-66
+54            </intent-filter>
+55        </activity>
+56        <activity
+56-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\8be8fe1173ab154c19699f63ff37aa25\transformed\jetified-core-1.4.0\AndroidManifest.xml:27:9-34:20
+57            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+57-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\8be8fe1173ab154c19699f63ff37aa25\transformed\jetified-core-1.4.0\AndroidManifest.xml:28:13-99
+58            android:exported="true"
+58-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\8be8fe1173ab154c19699f63ff37aa25\transformed\jetified-core-1.4.0\AndroidManifest.xml:29:13-36
+59            android:theme="@android:style/Theme" >
+59-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\8be8fe1173ab154c19699f63ff37aa25\transformed\jetified-core-1.4.0\AndroidManifest.xml:30:13-49
+60            <intent-filter>
+60-->[androidx.fragment:fragment-testing:1.5.2] C:\Users\DELL\.gradle\caches\transforms-3\2a1a1c2119b31648895f71edc4fc170f\transformed\jetified-fragment-testing-1.5.2\AndroidManifest.xml:34:13-36:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:31:17-69
+61-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:31:25-66
+62            </intent-filter>
+63        </activity>
+64        <activity
+64-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\8be8fe1173ab154c19699f63ff37aa25\transformed\jetified-core-1.4.0\AndroidManifest.xml:35:9-42:20
+65            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+65-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\8be8fe1173ab154c19699f63ff37aa25\transformed\jetified-core-1.4.0\AndroidManifest.xml:36:13-95
+66            android:exported="true"
+66-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\8be8fe1173ab154c19699f63ff37aa25\transformed\jetified-core-1.4.0\AndroidManifest.xml:37:13-36
+67            android:theme="@android:style/Theme" >
+67-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\8be8fe1173ab154c19699f63ff37aa25\transformed\jetified-core-1.4.0\AndroidManifest.xml:38:13-49
+68            <intent-filter>
+68-->[androidx.fragment:fragment-testing:1.5.2] C:\Users\DELL\.gradle\caches\transforms-3\2a1a1c2119b31648895f71edc4fc170f\transformed\jetified-fragment-testing-1.5.2\AndroidManifest.xml:34:13-36:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:31:17-69
+69-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:31:25-66
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\8be8fe1173ab154c19699f63ff37aa25\transformed\jetified-core-1.4.0\AndroidManifest.xml:43:9-50:20
+73            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+73-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\8be8fe1173ab154c19699f63ff37aa25\transformed\jetified-core-1.4.0\AndroidManifest.xml:44:13-103
+74            android:exported="true"
+74-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\8be8fe1173ab154c19699f63ff37aa25\transformed\jetified-core-1.4.0\AndroidManifest.xml:45:13-36
+75            android:theme="@android:style/Theme.Dialog" >
+75-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\8be8fe1173ab154c19699f63ff37aa25\transformed\jetified-core-1.4.0\AndroidManifest.xml:46:13-56
+76            <intent-filter>
+76-->[androidx.fragment:fragment-testing:1.5.2] C:\Users\DELL\.gradle\caches\transforms-3\2a1a1c2119b31648895f71edc4fc170f\transformed\jetified-fragment-testing-1.5.2\AndroidManifest.xml:34:13-36:29
+77                <action android:name="android.intent.action.MAIN" />
+77-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:31:17-69
+77-->C:\Users\DELL\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:31:25-66
+78            </intent-filter>
+79        </activity>
+80
+81        <provider
+81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\9572e51a77408be621fefe89bb92f5cf\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+82            android:name="androidx.startup.InitializationProvider"
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\9572e51a77408be621fefe89bb92f5cf\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+83            android:authorities="com.govi.dogglers.androidx-startup"
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\9572e51a77408be621fefe89bb92f5cf\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+84            android:exported="false" >
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\9572e51a77408be621fefe89bb92f5cf\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+85            <meta-data
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\9572e51a77408be621fefe89bb92f5cf\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\9572e51a77408be621fefe89bb92f5cf\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+87                android:value="androidx.startup" />
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\9572e51a77408be621fefe89bb92f5cf\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+88            <meta-data
+88-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\cfe744620b450eab187246b2e06560f4\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+89                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+89-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\cfe744620b450eab187246b2e06560f4\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+90                android:value="androidx.startup" />
+90-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\cfe744620b450eab187246b2e06560f4\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+91        </provider>
+92    </application>
+93
+94</manifest>
